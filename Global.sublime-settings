@@ -1,0 +1,25 @@
+{
+	"command": "exit_insert_mode",
+	"context":
+	[
+		{
+			"key": "setting.command_mode",
+			"operand": false
+		},
+		{
+			"key": "setting.is_widget",
+			"operand": false
+		}
+	],
+	"ignored_packages":
+	[
+	],
+	"keys":
+	[
+		"ctrl+c"
+	],
+	"show_tab_close_buttons": false,
+	"tab_size": 4,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": false
+}

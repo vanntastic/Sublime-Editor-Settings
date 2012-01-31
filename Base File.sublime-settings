@@ -1,0 +1,21 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Slately.tmTheme",
+	"vintage_start_in_command_mode": true,
+	"font_size": 12,
+	"highlight_line": true,
+    // only lint on save
+    "sublimelinter": "load-save",
+    // If true, lines with errors or warnings will be filled in with the outline color.
+    "sublimelinter_fill_outlines": false,
+    // If true, lines with errors or warnings will have a gutter mark.
+    "sublimelinter_gutter_marks": true,
+    "sublimelinter_disable": [ "javascript"],
+     "jshint_options":
+    {
+        "evil": true,
+        "eqnull": true,
+        "expr": false
+    },
+    // Valid values are "smooth", "phase", "blink", "wide" and "solid".
+    "caret_style": "wide"
+}
