@@ -1,12 +1,13 @@
 {
-	"auto_upgrade_last_run": 1327596130,
+	"auto_upgrade_last_run": 1330643435,
 	"installed_packages":
 	[
 		"CoffeeScript",
 		"Git",
 		"HTML5",
-		"LiveReload",
+		"Nettuts+ Fetch",
 		"Package Control",
+		"Rails Related Files",
 		"ZenCoding"
 	]
 }

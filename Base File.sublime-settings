@@ -1,21 +1,20 @@
 {
+	"caret_style": "wide",
 	"color_scheme": "Packages/Color Scheme - Default/Slately.tmTheme",
-	"vintage_start_in_command_mode": true,
-	"font_size": 12,
+	"font_size": 12.0,
 	"highlight_line": true,
-    // only lint on save
-    "sublimelinter": "load-save",
-    // If true, lines with errors or warnings will be filled in with the outline color.
-    "sublimelinter_fill_outlines": false,
-    // If true, lines with errors or warnings will have a gutter mark.
-    "sublimelinter_gutter_marks": true,
-    "sublimelinter_disable": [ "javascript"],
-     "jshint_options":
-    {
-        "evil": true,
-        "eqnull": true,
-        "expr": false
-    },
-    // Valid values are "smooth", "phase", "blink", "wide" and "solid".
-    "caret_style": "wide"
+	"jshint_options":
+	{
+		"eqnull": true,
+		"evil": true,
+		"expr": false
+	},
+	"sublimelinter": "load-save",
+	"sublimelinter_disable":
+	[
+		"javascript"
+	],
+	"sublimelinter_fill_outlines": false,
+	"sublimelinter_gutter_marks": true,
+	"vintage_start_in_command_mode": true
 }
